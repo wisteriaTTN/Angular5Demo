@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+
+nav {
+    height: 30px;
+    width: inherit;
+    background-color: #039498;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-btn {
+    padding: 5px 10px 5px 10px;
+}
+
+.horizontal-list{
+    
+}
